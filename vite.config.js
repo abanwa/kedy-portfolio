@@ -9,5 +9,5 @@ export default defineConfig({
     react(), // Enables React Fast Refresh and JSX/TSX support
     tailwindcss(), // Processes Tailwind CSS
   ],
-  base: "/kedy-portfolio",
+  base: "/kedy-portfolio", // my github name for this portfolio after i have created the github respository for this project
 })
