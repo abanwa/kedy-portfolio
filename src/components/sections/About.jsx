@@ -76,8 +76,7 @@ function About() {
               <h3 className="text-xl font-bold mb-4">📚 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>B.Sc. in Business Administration</strong> - University
-                  of Port Harcourt (2021-2025)
+                  <strong>B.Sc. in Business Management</strong>
                 </li>
                 <li>
                   Relevant Coursework: Accounting & Finance, Marketing,
