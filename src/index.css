@@ -44,11 +44,11 @@ body {
 
 .reveal {
   opacity: 0; /* not visible */
-  transform: translateY(20px);
+  transform: translateY(20px);  /* the elements will be translated (move downward by 20px) because of the class .revela added to their div*/
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
 .reveal.visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0); /* when the .visible class is added to it, it will translate(move upward to the original position 0px) when the .visible class is added to it when it/the referenced div enters the viewport or 20% of the referenced div enters the viewport because of the 0.2 threshold*/
 }
